@@ -3100,10 +3100,10 @@ ul {
 /**************** review_part css start ****************/
 /* line 2, ../../01 cl html template/New folder/May 2019/179 Medisen Medical/179 Medisen Medical -Template/sass/_review.scss */
 .review_part {
-  background-image: url("../img/review_bg.png");
+
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+ 
   position: relative;
   z-index: 1;
   padding: 140px 0 280px;
