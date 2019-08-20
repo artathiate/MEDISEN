@@ -5894,11 +5894,11 @@ h6 {
 
 /* line 58, ../../01 cl html template/New folder/May 2019/179 Medisen Medical/179 Medisen Medical -Template/sass/_contact.scss */
 .form-contact .form-control {
-  border: 1px solid #f0e9ff;
-  border-radius: 5px;
+  border: 1px solid #1d1b20;
+  border-radius: 10px;
   height: 48px;
-  padding-left: 18px;
-  font-size: 13px;
+  padding-left: 10px;
+  font-size: 18px;
   background: transparent;
 }
 
@@ -6306,7 +6306,7 @@ h6 {
   flex-direction: column-reverse;
 }
 .vf-footer.vf-footer--variant5 .vf-footer-left {
-  background-color: #0058c4;
+  background-color: #d9dfff;
   padding: 10px;
   font-size: 12px;
   border-top-left-radius: 60px;
@@ -6317,13 +6317,14 @@ h6 {
   content: "";
   width: 30px;
   height: 30px;
-  background: #0058c4;
+  /* background: #d9dfff; */
   position: absolute;
   right: 0;
   top: -50px;
 }
 .vf-footer.vf-footer--variant5 .vf-footer-left:after {
-  background: whitesmoke;
+ 
+  
   border-bottom-right-radius: 50px;
 }
 .vf-footer.vf-footer--variant5 .vf-footer-left .block-footer-logo img {
