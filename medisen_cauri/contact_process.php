@@ -1,10 +1,10 @@
 <?php
 
-    $to = "thiatoubayame93gmail.com";
+    $to = "ndeyediombediop@gmail.com";
     $from = $_REQUEST['email'];
     $name = $_REQUEST['name'];
-    $subject = $_REQUEST['subject'];
-    $number = $_REQUEST['number'];
+    $csubject = $_REQUEST['subject'];
+    //$number = $_REQUEST['number'];
     $cmessage = $_REQUEST['message'];
 
     $headers = "From: $from";
@@ -33,5 +33,7 @@
 	$body .= "</body></html>";
 
     $send = mail($to, $subject, $body, $headers);
-
+	if ($send) {
+        echo '<p>Votre message a bien été envoyé !</p>';
+    }
 ?>
