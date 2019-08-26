@@ -6300,6 +6300,8 @@ h6 {
 /* footer teste*/
 .vf-footer.vf-footer--variant5 {
   background-color: whitesmoke;
+  margin-top: 50px;
+
 }
 .vf-footer.vf-footer--variant5 .vf-footer-items {
   display: flex;
